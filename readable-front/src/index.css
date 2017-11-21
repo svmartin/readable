@@ -9,3 +9,7 @@
 .main-logo {
   display: block;
 }
+
+.columns .title {
+  text-align: center;
+}

@@ -14,6 +14,10 @@ const Categories = () => {
           customClass={"notification is-success title"}
           title={"Redux"}/></Link>
         <Link to="udacity"><Category customClass={"notification is-warning title"} title={"Udacity"}/></Link>
+
+        <Route path="/react" component={ReactPosts}/>
+        <Route path="/topics" component={ReduxPosts}/>
+        <Route path="/topics" component={UdacityPosts}/>
       </div>
     </div>
   );
